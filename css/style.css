@@ -159,7 +159,7 @@ p {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-
+    max-width: 90%;
 	text-decoration: none;
 }
 
@@ -180,6 +180,7 @@ p {
 
 .buttonRounded {
 	border-radius: 39px;
+    text-align: center;
 }
 
 .buttonHighlight:hover {
@@ -204,11 +205,6 @@ p {
 	}
 
 	h1 {
-		text-align: center;
-	}
-
-	.buttonRounded {
-		margin: 5% 10%;
 		text-align: center;
 	}
 }
