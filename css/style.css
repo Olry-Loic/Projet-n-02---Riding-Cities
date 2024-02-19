@@ -209,7 +209,13 @@ p {
 
 	h1 {
 	
+
+		text-align: center;
+	}
+
+	.buttonRounded {
 		
+		margin: 5% 5%;
 		text-align: center;
 	}
 }
