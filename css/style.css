@@ -186,3 +186,30 @@ p {
 	font-weight: 800;
 	border-width: 3px;
 }
+
+/****responsive****/
+
+@media (max-width: 800px) {
+	.container {
+		min-width: 300px;
+		
+	}
+	.directionRow {
+		
+		flex-direction: column;
+		align-content: center;
+    	flex-wrap: wrap;
+		
+	}
+
+	article {
+		width: 50%;
+		
+	}
+
+	h1 {
+	
+		
+		text-align: center;
+	}
+}
