@@ -192,30 +192,23 @@ p {
 @media (max-width: 800px) {
 	.container {
 		min-width: 300px;
-		
 	}
 	.directionRow {
-		
 		flex-direction: column;
 		align-content: center;
     	flex-wrap: wrap;
-		
 	}
 
 	article {
 		width: 50%;
-		
 	}
 
 	h1 {
-	
-
 		text-align: center;
 	}
 
 	.buttonRounded {
-		
-		margin: 5% 5%;
+		margin: 5% 10%;
 		text-align: center;
 	}
 }
